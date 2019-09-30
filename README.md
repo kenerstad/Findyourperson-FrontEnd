@@ -54,3 +54,4 @@ people & peoplewithsavefunction views: Possible CORS issue?
 * Convert lists to proper forms. (Considering using https://www.npmjs.com/package/vue-tables-2)
 * Include https://vuelidate.netlify.com/#sub-basic-form for proper validation.
 * Undo function for calls to backend. (Deletes, updates, etc..)
+* Tests(Integration, unit, etc..)

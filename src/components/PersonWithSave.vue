@@ -50,10 +50,11 @@ export default {
         accept: function() {                  
             this.$http.put('http://localhost:8080/api/person/update', this.personInfo).then(response => {
 
-            // get body data
-            this.people = response.body;
-            console.log(response.body);
+            // show response status
             console.log(response.status);
+            // update persons with list sent from backend
+            this.people = response.body;
+
             }, response => {
             // error callback
             });
@@ -78,7 +79,6 @@ export default {
 
        
             this.$emit('update-list', response.body);
-            console.log(response.body);
             console.log(response.status);
             }, response => {
             // error callback

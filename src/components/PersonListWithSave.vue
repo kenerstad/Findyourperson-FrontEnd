@@ -35,7 +35,9 @@ export default {
             var getAllUrl = 'http://localhost:8080/api/person/getall'; 
 
             this.$http.get(getAllUrl).then(response => {
-
+            
+            // show response status
+            console.log(response.status);
             // update persons with list sent from backend
             this.people = response.body;
 
