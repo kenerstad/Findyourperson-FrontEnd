@@ -16,9 +16,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 vue-resource, vue-router, eslint, babel.
 
 ### Unresolved issues
-[ GET http://192.168.42.20:8082/sockjs-node/info?t=1569799991163 net::ERR_CONNECTION_TIMED_OUT ] - Error message keeps popping up on
+* [ GET http://192.168.42.20:8082/sockjs-node/info?t=1569799991163 net::ERR_CONNECTION_TIMED_OUT ] - Error message keeps popping up on
 people & peoplewithsavefunction views: Possible CORS issue?
-undo function on 
+
+* undo function on personListWithSave.vue view needs some tweaking before working properly.
 
 ### planned features
 * Convert lists to proper forms. (Considering using https://www.npmjs.com/package/vue-tables-2)
