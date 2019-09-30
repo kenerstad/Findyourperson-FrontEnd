@@ -21,7 +21,7 @@ people & peoplewithsavefunction views: Possible CORS issue?
 
 * undo function on personListWithSave.vue view needs some tweaking before working properly.
 
-### planned features
+### Planned features
 * Convert lists to proper forms. (Considering using https://www.npmjs.com/package/vue-tables-2)
 
 * Include https://vuelidate.netlify.com/#sub-basic-form for proper validation.
