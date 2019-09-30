@@ -28,15 +28,13 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### included libs
+### Installed plugins:
+    vue-resource, vue-router, eslint, babel.
 
 ### Explanation
 A front end application that leverages backend REST api to create, modify & delete persons.
 A person has 2 properties: Name & age.
 Application uses vue routing to onepage views.
-
-Installed plugins:
-    vue-resource, vue-router, eslint, babel.
 
 Views:
     People view:
