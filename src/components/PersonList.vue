@@ -30,6 +30,8 @@ export default {
 
             this.$http.get(getAllUrl).then(response => {
 
+            // show response status
+            console.log(response.status);
             // get body data
             this.people = response.body;
 
