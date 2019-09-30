@@ -38,8 +38,8 @@ Application uses vue routing to onepage views.
 
 Views:
     People view:
-         Components: PersonList, PersonWithSave
-    The people view relegates most if not all calls to backend 
+        Components: PersonList, PersonWithSave
+        The people view relegates most if not all calls to backend 
 
     People with save view:
         Components: PersonListWithSave, Person
