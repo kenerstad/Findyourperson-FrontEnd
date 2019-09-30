@@ -1,4 +1,4 @@
-# person-frontend
+# Findyourperson-FrontEnd
 
 ## Instructions
 A front end application that leverages backend REST api to create, modify & delete persons.
